@@ -26,12 +26,12 @@
 	<tr>
 	<td style="max-width:100px">
 
-	<?= $comment['name']?>
+	<?= htmlspecialchars($comment['name'])?>
 
 	</td>
 	<td>
 
-	<?= $comment['comment']?>
+	<?= htmlspecialchars($comment['comment'])?>
 
 	</td>
 
