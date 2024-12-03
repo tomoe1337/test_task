@@ -1,8 +1,9 @@
 <?php
 require_once("vendor/show_comments.php");
 
-include('templates/form.php');
+require_once('templates/form.php');
 
 
 ?>
+
 
